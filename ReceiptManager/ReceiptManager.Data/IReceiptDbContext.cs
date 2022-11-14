@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ReceiptManager;
 using ReceiptManager.Main.Models;
 using System.Threading.Tasks;
 

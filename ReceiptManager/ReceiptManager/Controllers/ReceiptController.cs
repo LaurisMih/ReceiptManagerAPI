@@ -1,12 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ReceiptManager.Data;
 using ReceiptManager.Main.Interfaces;
 using ReceiptManager.Main.Models;
-using ReceiptManager.Services.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace ScooterRentalAPI.Controllers
 {
