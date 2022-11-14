@@ -1,15 +1,11 @@
 using FluentAssertions;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ReceiptManager.Data;
-using ReceiptManager.Main.Interfaces;
 using ReceiptManager.Main.Models;
 using ReceiptManager.Main.Validations;
-using ReceiptManager.Services;
-using ReceiptManager.Services.Interfaces;
+using ReceiptServices.Main.ValidationInterfaces;
 using ScooterRentalAPI.Controllers;
 using System;
-using System.Collections.Generic;
 
 namespace ReceiptManager.Tests
 {
@@ -17,10 +13,7 @@ namespace ReceiptManager.Tests
     public class ReceiptTests
     {
         private Receipt _receipt;
-        private ReceiptDbContext receiptDbContext;
-        private IReceiptService _receiptService;
-        private IDbService _dbService;
-        private DbContext _dbContext;
+        private ReceiptDbContext receiptDbContext;     
         public ReceiptController _receiptController;
         private IReceiptValidator _receiptValidator;
         private IReceiptValidator _timeValidator;
@@ -30,8 +23,7 @@ namespace ReceiptManager.Tests
         {
             _receiptValidator = new ReceiptValidations();
             _timeValidator = new ReceiptTimeValidations();
-            receiptDbContext = new ReceiptDbContext();
-            _receiptService = new ReceiptService(receiptDbContext);
+            receiptDbContext = new ReceiptDbContext();            
         }
         
         [TestMethod]

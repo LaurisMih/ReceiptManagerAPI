@@ -1,18 +1,9 @@
 ﻿using FluentAssertions;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ReceiptManager.Data;
-using ReceiptManager.Main.Interfaces;
 using ReceiptManager.Main.Models;
-using ReceiptManager.Main.Validations;
-using ReceiptManager.Services;
-using ReceiptServices.Main.Interfaces;
+using ReceiptServices.Main.ValidationInterfaces;
 using ReceiptServices.Main.Validations;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ReceiptManager.Tests
 {

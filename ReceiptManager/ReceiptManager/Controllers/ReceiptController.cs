@@ -86,7 +86,7 @@ namespace ScooterRentalAPI.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteReceiptById(int id)
         {
-            ReceiptManager.Main.Models.Receipt receipt = _receiptService.GetById(id);
+            Receipt receipt = _receiptService.GetById(id);
             if (receipt != null)
             {
                 var result = _receiptService.Delete(receipt);

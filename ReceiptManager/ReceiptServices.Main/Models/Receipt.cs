@@ -10,15 +10,6 @@ namespace ReceiptManager.Main.Models
         {
 
         }
-       /* public Receipt(DateTime utcNow)
-        {
-            CreatedOn = utcNow;
-        }
-        public Receipt(DateTime utcNow, List<Product> items)
-        {
-            
-            CreatedOn = utcNow;
-        }*/
 
         public Receipt(int id, DateTime utcNow)
         {

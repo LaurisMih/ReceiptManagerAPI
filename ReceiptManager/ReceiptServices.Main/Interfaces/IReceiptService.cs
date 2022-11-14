@@ -11,14 +11,11 @@ namespace ReceiptManager.Main.Interfaces
     public interface IReceiptService : IEntityService<Receipt>
     {
 
-        ServiceResults AddReceipt(/*DateTime dateTime,*/ List<Product> products);
-        //List<Receipt> AddReceipt(DateTime dateTime, List<Product> products);
+        ServiceResults AddReceipt(List<Product> products);
         ServiceResults RemoveReceipt(int id);
-
         List<Receipt> GetAllReceipts();
         Receipt GetReceiptById(int scooterId);
         IEnumerable<Receipt> GetReceiptsByTime(DateTime timeStart, DateTime timeEnd);
-
         List<Receipt> FilterReceiptsByItem(string itemProductName);
     }
 

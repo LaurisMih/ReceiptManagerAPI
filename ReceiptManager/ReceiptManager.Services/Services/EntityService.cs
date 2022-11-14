@@ -24,7 +24,7 @@ namespace ReceiptManager.Services.Services
         {
             return Delete<T>(entity);
         }
-
+       
         public ServiceResults Update(T entity)
         {
             return Update<T>(entity);

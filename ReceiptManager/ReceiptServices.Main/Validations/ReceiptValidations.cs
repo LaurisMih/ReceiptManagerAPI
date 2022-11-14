@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using ReceiptManager.Main.Interfaces;
 using ReceiptManager.Main.Models;
 using ReceiptManager.Services.Interfaces;
+using ReceiptServices.Main.ValidationInterfaces;
 
 namespace ReceiptManager.Main.Validations
 {

@@ -1,5 +1,5 @@
 ﻿using ReceiptManager.Main.Models;
-using ReceiptServices.Main.Interfaces;
+using ReceiptServices.Main.ValidationInterfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

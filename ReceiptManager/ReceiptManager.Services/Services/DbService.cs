@@ -25,11 +25,11 @@ namespace ReceiptManager.Services
             return new ServiceResults(true).SetEntity(entity);
         }
 
-        public ServiceResults Delete<T>(T entity) where T : Entity
-        {
+        public ServiceResults Delete<T>(T entity) where T : Entity       
+        {          
             _context.Set<T>().Remove(entity);
             _context.SaveChanges();
-
+            
             return new ServiceResults(true);
         }
 
