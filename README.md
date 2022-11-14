@@ -5,9 +5,9 @@ App created to work with Receipts. <br>
 ## App functionality: <br>
  This API has these endpoints for Receipt:
   * Create receipt : POST /addReceipt<br>
- | FirstName     | LastName      | City     |
-| ------------- | ------------- | -------- |
-| John          | Test1         | NewYork  |
+ | FirstName     | LastName      | City     |<br>
+| ------------- | ------------- | -------- |<br>
+| John          | Test1         | NewYork  |<br>
 | Bob           | Test2         | Toronto  |<br>
 User can :<br>
  1) Create receipt. Dont change Id in body, just change "string" to your item, like "chocolate" <br> 
