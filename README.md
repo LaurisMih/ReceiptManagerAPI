@@ -5,10 +5,10 @@ App created to work with Receipts. <br>
 ## App functionality: <br>
  This API has these endpoints for Receipt:
   * Create receipt : POST /addReceipt<br>
- | Parameter     | Type      | Rule     |<br>
-| ------------- | ------------- | -------- |<br>
-| id          | string        | don't change id  |<br>
-| name          | string        |you can change it to your item name  |<br>
+ | Parameter      | Type          | Rule                               |<br>
+ | -------------  | ------------- | -----------------------------------|<br>
+ | id             | string        | don't change id                    |<br>
+ | name           | string        |you can change it to your item name |<br>
 
 
 User can :<br>
