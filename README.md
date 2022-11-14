@@ -10,7 +10,7 @@ App created to work with Receipts. <br>
 2) In Visual Studio choose ReceiptManager and run without debugging
 ![image](https://user-images.githubusercontent.com/108615436/201791121-e160b400-f109-4777-b19f-dd6dc4e16793.png)
 
-3) Work with endpoints(keep project running to send requests)
+3) Work with endpoints(keep project running to send requests)<br>
 ![image](https://user-images.githubusercontent.com/108615436/201791187-57ff2d10-3d83-4149-aa17-d1d0542c1e3c.png)
 
 ## App functionality: <br>
