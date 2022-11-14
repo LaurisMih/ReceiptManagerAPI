@@ -5,10 +5,12 @@ App created to work with Receipts. <br>
 ## App functionality: <br>
  This API has these endpoints for Receipt:
   * Create receipt : POST /addReceipt<br>
- | FirstName     | LastName      | City     |<br>
+ | Parameter     | Type      | Rule     |<br>
 | ------------- | ------------- | -------- |<br>
-| John          | Test1         | NewYork  |<br>
-| Bob           | Test2         | Toronto  |<br>
+| id          | string        | don't change id  |<br>
+| name          | string        |you can change it to your item name  |<br>
+
+
 User can :<br>
  1) Create receipt. Dont change Id in body, just change "string" to your item, like "chocolate" <br> 
  2) Get receipt by id. Input receipt Id not item Id.<br> 
