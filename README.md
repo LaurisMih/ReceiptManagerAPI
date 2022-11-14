@@ -36,7 +36,10 @@ App created to work with Receipts. <br>
  | itemName             | string        | write your item name                    |
  
  * Deletel receipt by id : DELETE /receiptController/{id}<br>
- 
+ ## Techonoligies used
+ * ASP.NET Core Web API;
+* Entity Framework;
+* MSTest tests;
  ## Improvements
  * App can be improved by adding tests for receipt service using in memory db.<br>
  * Add delete all receipts method. <br>
