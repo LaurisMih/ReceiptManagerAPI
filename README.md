@@ -8,7 +8,7 @@ App created to work with Receipts. <br>
  | First Header  | Second Header |
  | ------------- | ------------- |
  | Content Cell  | Content Cell  |
- | Content Cell  | Content Cell  |
+ | Content Cell  | Content Cell  | <br>
 User can :<br>
  1) Create receipt. Dont change Id in body, just change "string" to your item, like "chocolate" <br> 
  2) Get receipt by id. Input receipt Id not item Id.<br> 
