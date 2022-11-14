@@ -10,7 +10,6 @@ namespace ReceiptManager.Main.Interfaces
 {
     public interface IReceiptService : IEntityService<Receipt>
     {
-
         ServiceResults AddReceipt(List<Product> products);
         ServiceResults RemoveReceipt(int id);
         List<Receipt> GetAllReceipts();
@@ -18,5 +17,4 @@ namespace ReceiptManager.Main.Interfaces
         IEnumerable<Receipt> GetReceiptsByTime(DateTime timeStart, DateTime timeEnd);
         List<Receipt> FilterReceiptsByItem(string itemProductName);
     }
-
 }

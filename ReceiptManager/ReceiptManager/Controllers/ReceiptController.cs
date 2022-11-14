@@ -16,11 +16,10 @@ namespace ScooterRentalAPI.Controllers
     {
        
         private readonly IReceiptService _receiptService;
-        private readonly IReceiptDbContext _context;
-        public ReceiptController(IReceiptService receiptService, IReceiptDbContext context )
+        
+        public ReceiptController(IReceiptService receiptService)
         {
-            _receiptService = receiptService;
-            _context = context;
+            _receiptService = receiptService;            
         }
         
         [Route("/addReceipt")]
