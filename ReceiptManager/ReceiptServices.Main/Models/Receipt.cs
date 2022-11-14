@@ -10,7 +10,7 @@ namespace ReceiptManager.Main.Models
         {
 
         }
-        public Receipt(DateTime utcNow)
+       /* public Receipt(DateTime utcNow)
         {
             CreatedOn = utcNow;
         }
@@ -18,7 +18,7 @@ namespace ReceiptManager.Main.Models
         {
             
             CreatedOn = utcNow;
-        }
+        }*/
 
         public Receipt(int id, DateTime utcNow)
         {
