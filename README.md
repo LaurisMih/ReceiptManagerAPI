@@ -5,10 +5,10 @@ App created to work with Receipts. <br>
 ## App functionality: <br>
  This API has these endpoints for Receipt:
   * Create receipt : POST /addReceipt<br>
- | Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged | <br>
+ | FirstName     | LastName      | City     |
+| ------------- | ------------- | -------- |
+| John          | Test1         | NewYork  |
+| Bob           | Test2         | Toronto  |<br>
 User can :<br>
  1) Create receipt. Dont change Id in body, just change "string" to your item, like "chocolate" <br> 
  2) Get receipt by id. Input receipt Id not item Id.<br> 
