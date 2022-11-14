@@ -5,7 +5,7 @@ App created to work with Receipts. <br>
 ## App functionality: <br>
  This API has these endpoints for Receipt:
   * Create receipt : POST /addReceipt<br>
-   * Request example
+   * Request example<br>
    ![image](https://user-images.githubusercontent.com/108615436/201788562-ab1afeaf-7819-49ee-8fdb-3064ed24c088.png)
 
  | Parameter      | Type          | Rule                               |
