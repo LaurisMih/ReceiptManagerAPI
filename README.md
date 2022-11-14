@@ -11,7 +11,12 @@ App created to work with Receipts. <br>
  | id             | string        | don't change id                    |
  | name           | string        |you can change it to your item name |
 
-
+ * Get receipt by id : GEt /receiptController/getReceiptById<br>
+  
+ | Parameter      | Type          | Rule                               |
+ | -------------  | ------------- | -----------------------------------|
+ | id             | id        | write your receipt id                    |
+ 
 User can :<br>
  1) Create receipt. Dont change Id in body, just change "string" to your item, like "chocolate" <br> 
  2) Get receipt by id. Input receipt Id not item Id.<br> 
