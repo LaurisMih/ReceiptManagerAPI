@@ -14,7 +14,7 @@ App created to work with Receipts. <br>
  | name           | string        |you can change it to your item name |
 
  * Get receipt by id : GET /receiptController/getReceiptById<br>
-  
+ 
  | Parameter      | Type          | Rule                               |
  | -------------  | ------------- | -----------------------------------|
  | id             | id        | write your receipt id                    |
@@ -25,8 +25,16 @@ App created to work with Receipts. <br>
  | Parameter      | Type          | Rule                               |
  | -------------  | ------------- | -----------------------------------|
  | timeStart           | DateTime       | write time lower bound               |     
-  | timeEnd            | DateTime        | write your upper bound               |     
+  | timeEnd            | DateTime        | write your upper bound               |   
+  
+  * Get all receipts : GET /receiptController/getAllReceipts<br>
 
+ * Get receipt by item name : GET /receiptController/filterReceiptByItemName<br>
+ 
+ | Parameter      | Type          | Rule                               |
+ | -------------  | ------------- | -----------------------------------|
+ | itemName             | string        | write your item name                    |
+ 
 User can :<br>
  1) Create receipt. Dont change Id in body, just change "string" to your item, like "chocolate" <br> 
  2) Get receipt by id. Input receipt Id not item Id.<br> 
