@@ -21,6 +21,7 @@ App created to work with Receipts. <br>
  
   * Get receipt by time range: GET receiptController/getReceiptsByTimeRange<br>
    * Input time example:  2022-11-15T00:50:31.4598472+03:00
+   
  | Parameter      | Type          | Rule                               |
  | -------------  | ------------- | -----------------------------------|
  | timeStart           | DateTime       | write time lower bound               |     
