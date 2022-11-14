@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ReceiptManager.Services.Interfaces;
 using ReceiptManager.Main.Models;
 using ReceiptManager.Data;
 using ReceiptManager.Main.Interfaces;
@@ -13,14 +10,11 @@ using Microsoft.EntityFrameworkCore;
 namespace ReceiptManager.Services
 {
     public class ReceiptService : EntityService<Receipt>,IReceiptService
-    {
-        private readonly IDbService _dbService;
+    {        
         private readonly IReceiptDbContext _context;
-
-       
-        public ReceiptService(IDbService dbService, IReceiptDbContext receiptDbContext, ReceiptDbContext context) : base(context)
-        {
-            _dbService = dbService;
+     
+        public ReceiptService(IReceiptDbContext receiptDbContext, ReceiptDbContext context) : base(context)
+        {          
             _context = receiptDbContext;
         }
 
