@@ -27,7 +27,7 @@ namespace ScooterRentalAPI.Controllers
         [HttpPost]
         public IActionResult AddReceipt(List<Product> products)
         {
-            //var product = _context.Products.Include().ToList();
+            
             var time = DateTime.UtcNow;
             var result = _receiptService.AddReceipt( products);            
              if (result.Success)
@@ -37,7 +37,7 @@ namespace ScooterRentalAPI.Controllers
              return BadRequest(result);            
         }
 
-        [Route("GetReceiptById")]
+        [Route("getReceiptById")]
         [HttpGet]
         public IActionResult GetReceiptById(int id)
         {
@@ -52,15 +52,15 @@ namespace ScooterRentalAPI.Controllers
             return Ok(receiptId);
         }
 
-        [Route("GetReceiptsByTime")]
+        [Route("getReceiptsByTimeRange")]
         [HttpGet]
-        public IActionResult GetReceiptsByTime(DateTime timeStart, DateTime timeEnd)
+        public IActionResult GetReceiptsByTimeRange(DateTime timeStart, DateTime timeEnd)
         {
             var receipts = _receiptService.GetReceiptsByTime(timeStart, timeEnd);
             return Created("", receipts);
         }
 
-        [Route("GetAllReceipts")]
+        [Route("getAllReceipts")]
         [HttpGet]
         public IActionResult GetAllReceipts()
         {
@@ -68,9 +68,9 @@ namespace ScooterRentalAPI.Controllers
             return Created("", receipts);
         }
 
-        [Route("FilterReceipt")]
+        [Route("filterReceiptByItemName")]
         [HttpGet]
-        public IActionResult FilterReceiptByItemsName(string itemName)
+        public IActionResult FilterReceiptByItemName(string itemName)
         {
 
             var name = _receiptService.FilterReceiptsByItem(itemName);

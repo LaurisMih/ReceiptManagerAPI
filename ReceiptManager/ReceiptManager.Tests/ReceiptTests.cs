@@ -60,15 +60,6 @@ namespace ReceiptManager.Tests
             var receiptTimeFalse = new Receipt(2, DateTime.Now);  
             
             _timeValidator.IsValid(receiptTimeFalse).Should().BeFalse();
-        }
-
-        [TestMethod]
-        public void ReceiptDelete_CanDeleteReceipt()
-        {
-            
-
-           
-
-        }
+        }       
     }
 }

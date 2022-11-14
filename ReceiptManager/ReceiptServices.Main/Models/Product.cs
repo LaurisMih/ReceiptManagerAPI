@@ -13,6 +13,11 @@ namespace ReceiptManager.Main.Models
            
         }
 
+        public Product(int id)
+        {
+
+        }
+
         public Product(string name)
         {
             Name = name;

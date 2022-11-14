@@ -21,11 +21,7 @@ namespace ReceiptManager.Main.Validations
                 return false;
             }
 
-            return true;
-
-            
-        }
-
-      
+            return true;           
+        }    
     }
 }

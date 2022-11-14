@@ -15,9 +15,7 @@ namespace ReceiptManager.Data
         }
         public DbSet<Receipt> Receipts { get; set; }
         public DbSet<Product> Products { get; set; }
-
        
-
         public Task<int> SaveChangesAsync()
         {
             return base.SaveChangesAsync();
