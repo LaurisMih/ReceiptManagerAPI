@@ -1,11 +1,6 @@
-﻿using ReceiptManager.Main.Interfaces;
-using ReceiptManager.Main.Models;
+﻿using ReceiptManager.Main.Models;
 using ReceiptServices.Main.ValidationInterfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ReceiptManager.Main.Validations
 {

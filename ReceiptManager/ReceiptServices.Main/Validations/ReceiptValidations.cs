@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ReceiptManager.Main.Interfaces;
+﻿using ReceiptManager.Main.Interfaces;
 using ReceiptManager.Main.Models;
 using ReceiptManager.Services.Interfaces;
 using ReceiptServices.Main.ValidationInterfaces;
