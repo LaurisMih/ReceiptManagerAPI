@@ -1,7 +1,12 @@
 # ReceiptManagerAPI
  
 App created to work with Receipts. <br>
+## How to start: 
+1) Clone or or download it as a .zip file and unarchive it. Choose ReceiptManager.sln in ReceiptManager folder
+![image](https://user-images.githubusercontent.com/108615436/201790907-ae41c018-5bf6-4bf3-8862-d12932f23629.png)
 
+2) In Visual Studio choose ReceiptManager and run without debugging
+3) Work with endpoints(keep project running to send requests)
 ## App functionality: <br>
  This API has these endpoints for Receipt:
   * Create receipt : POST /addReceipt<br>
