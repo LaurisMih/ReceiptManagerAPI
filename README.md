@@ -2,8 +2,10 @@
  
 App created to work with Receipts. <br>
 ## How to start: 
-1) Clone or or download it as a .zip file and unarchive it. Choose ReceiptManager.sln in ReceiptManager folder
+1) Clone or or download it as a .zip file and unarchive it. Choose ReceiptManager.sln in ReceiptManager folder<br>
 ![image](https://user-images.githubusercontent.com/108615436/201790907-ae41c018-5bf6-4bf3-8862-d12932f23629.png)
+![image](https://user-images.githubusercontent.com/108615436/201791028-727bc933-8f17-4fdd-8478-d04f90347f12.png)
+
 
 2) In Visual Studio choose ReceiptManager and run without debugging
 3) Work with endpoints(keep project running to send requests)
