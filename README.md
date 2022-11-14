@@ -38,5 +38,7 @@ App created to work with Receipts. <br>
  * Deletel receipt by id : DELETE /receiptController/{id}<br>
  
  ## Improvements
- *
-App can be improved by adding tests for receipt service using in memory db.
+ * App can be improved by adding tests for receipt service using in memory db.<br>
+ * Add delete all receipts method. <br>
+ * Get receipt by item id. <br>
+
