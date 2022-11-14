@@ -5,9 +5,7 @@ using System.Collections.Generic;
 namespace ReceiptManager.Main.Models
 {
     public class Receipt : Entity
-    {
-        
-
+    {        
         public Receipt()
         {
 

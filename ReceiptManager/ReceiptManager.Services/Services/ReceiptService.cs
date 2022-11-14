@@ -42,24 +42,19 @@ namespace ReceiptManager.Services
 
         public List<Receipt> GetAllReceipts()
         {
-            return _context.Receipts.Include(r => r.Items).ToList();
-            
+            return _context.Receipts.Include(r => r.Items).ToList();           
         }
 
         public Receipt GetReceiptById(int receiptId)
-        {
-            
+        {          
             return Query<Receipt>().Include(receipt => receipt.Items)
                 .FirstOrDefault(receipt => receipt.Id == receiptId);
         }
 
         public IEnumerable<Receipt> GetReceiptsByTime(DateTime lowerRange, DateTime upperRange)
-        {
-
-          
+        {          
             return Query<Receipt>().Include(receipt => receipt.Items)
                 .Where(receipt => receipt.CreatedOn >= lowerRange && receipt.CreatedOn <= upperRange).ToList();
-
         }
 
         public List<Receipt> FilterReceiptsByItem(string itemProductName)

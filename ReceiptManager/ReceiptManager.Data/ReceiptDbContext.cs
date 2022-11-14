@@ -13,6 +13,7 @@ namespace ReceiptManager.Data
         public ReceiptDbContext(DbContextOptions options) : base(options)
         {
         }
+
         public DbSet<Receipt> Receipts { get; set; }
         public DbSet<Product> Products { get; set; }
        

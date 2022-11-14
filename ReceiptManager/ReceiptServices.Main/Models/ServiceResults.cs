@@ -24,8 +24,6 @@ namespace ReceiptManager.Main.Models
             return this;
         }
 
-
-
         public bool Success { get; private set; }
         public IEntity Entity { get; private set; }
 
